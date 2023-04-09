@@ -13,7 +13,9 @@ const ContactForm = () => {
     const form = e.currentTarget;
     const name = form.elements.name.value;
     const number = form.elements.number.value;
-    const alreadyExists = contacts.find(contact => contact.name === name);
+    const alreadyExists = contacts.find(
+      contact => contact.name.toLowerCase() === name.toLowerCase()
+    );
     form.reset();
 
     if (alreadyExists) {
