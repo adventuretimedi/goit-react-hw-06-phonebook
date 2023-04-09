@@ -1,0 +1,23 @@
+.titleFind {
+  display: flex;
+  font-size: 18;
+  text-align: center;
+  font-family: Roboto, serif;
+  font-size: 25px;
+  font-weight: normal;
+  text-align: center;
+  color: aliceblue;
+  margin-bottom: 5px;
+  max-width: 600px;
+}
+.inputFind {
+  margin-top: 10px;
+  height: 20px;
+  width: 200px;
+  height: 25px;
+}
+
+.inputFind::placeholder {
+  font-size: 15px;
+  color: black;
+}
