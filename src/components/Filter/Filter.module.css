@@ -15,6 +15,7 @@
   height: 20px;
   width: 200px;
   height: 25px;
+  outline: none;
 }
 
 .inputFind::placeholder {
